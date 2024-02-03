@@ -1,0 +1,130 @@
+/* Decompiler Component Styles */
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
+
+/* Base Styles */
+body {
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Space Mono', monospace;
+
+}
+
+/* Decompiler Container */
+.decompiler-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: 'Space Mono', monospace;
+
+}
+
+/* Textbox Styles */
+.decompiler-input {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Space Mono', monospace;
+
+}
+
+/* Button Styles */
+.decompiler-button {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #008080; /* Green shade */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Space Mono', monospace;
+
+}
+
+.decompiler-button:hover {
+    background-color: #008080;
+}
+
+/* Output Box */
+.output-box {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 10px;
+    white-space: pre-wrap; /* Keeps the format of solidity code */
+    overflow-x: auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Loading Text */
+.loading-text {
+    color: #888;
+}
+
+.container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    /* Add other styling as needed */
+}
+
+.contract-text {
+    color: #333; /* Or any other color that suits your design */
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 20px; /* Adjust as needed */
+    /* Add other styling like font-size, font-weight as per your design */
+}
+.content {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center; /* Center alignment for all content within the div */
+    /* Add other styling as needed */
+}
+
+h1, h4 {
+    color: #333; /* Or choose a color that suits your design */
+    /* Additional shared styling for h1 and h4 */
+}
+
+h4 a {
+    color: #0066cc; /* Color for the link */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+h4 a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+.solidity-code {
+    font-family: 'Space Mono', monospace;
+    white-space: pre; /* To preserve formatting like <pre> */
+    font-size: 16px; /* Set your desired font size */
+    /* Add other styling as needed */
+}
+
+.code-container {
+    background-color: #f8f8f8; /* Light background for the code */
+    border: 1px solid #ddd; /* Border for the container */
+    padding: 10px; /* Padding around the code */
+    overflow-x: auto; /* Makes it scrollable horizontally */
+    max-width: 100%; /* Ensures it fits within its parent container */
+    font-family: 'Space Mono', monospace;
+}
+
+/* Additional styling can be added depending on the syntax highlighting library used */
